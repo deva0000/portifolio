@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+
+    
+}
+
+.headerContainer{
+    padding-top: 35px;
+}
+
+header {
+    background-color: rgb(51, 59, 70);
+    height: 120px;
+    margin-bottom: 50px;
+    width: 100%;
+    overflow: auto;   
+    justify-content: center;
+    display: flex;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+}h1{margin: 0px;}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+
+
+
