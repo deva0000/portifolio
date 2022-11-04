@@ -1,7 +1,8 @@
+
 body {
     margin: 0px;
-
-    
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif;
+   
 }
 
 .headerContainer{
@@ -28,8 +29,19 @@ header {
 a {
     text-decoration: none;
     color: black;
-    font-size: 50px;
+    font-size: 25px;
+    font-family: 'Roboto Condensed';
 }
+.projectsContainer:hover {
+
+   border-radius: 5px;
+   border-bottom: 7px solid;
+   padding-bottom: 5px;
+   border-color: firebrick;
+
+}
+
+
 
 
 
