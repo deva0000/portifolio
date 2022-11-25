@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>    
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="assets/css/togglebutton.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
-        </style>
+    </style>
 </head>
+
 <body>
     <div class="borda">
         <div class="calcText">Calculadora IMC
@@ -20,31 +22,32 @@
             <div class="values">
                 <div class="containerValue1">
                     <div class="text">Peso (kg): </div>
-                    <input class="peso"  type="number"  placeholder="Ex: 65">
+                    <input class="peso" type="number" placeholder="Ex: 65">
                 </div>
                 <div class="containerValue2">
                     <div class="text" id="alturaMetrica">Altura (cm): </div>
-                    <input class="altura" type="number"  placeholder="Ex: 170">
-                </div>   
-       
+                    <input class="altura" type="number" placeholder="Ex: 170">
+                </div>
+
             </div>
             <div class="switchContainer">
                 <div class="valueSelectedcm">Centímetros</div>
                 <label class="switch">
-                    <input id="toggle" type="checkbox" >
+                    <input id="toggle" type="checkbox">
                     <span class="slider round"></span>
-                </label> 
+                </label>
 
                 <div class="valueSelectedm">Metros</div>
-            </div>    
+            </div>
         </div>
         <button onclick="calcularcm()" class="botao">Calcular!</button>
     </div>
     <div class="resultado">
         <img src="assets/b69.png" style="width:100px ;" alt="">
     </div>
-    
 
-    <script src="assets/js/script.js"></script>    
+
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
