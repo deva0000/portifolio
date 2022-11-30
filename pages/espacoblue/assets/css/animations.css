@@ -1,0 +1,52 @@
+/* Logo animations */
+@keyframes revealLine {
+    from {
+        clip-path: inset(0% 100% 0% 0%);
+    }
+
+    to {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+@keyframes reveal {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+/* Logo Flower */
+
+@keyframes round {
+    from {
+        transform: rotate(-180deg);
+    }
+
+ 
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes popping {
+    from {
+        opacity: 0;
+        transform: scale(0.5);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.2);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
