@@ -12,45 +12,72 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navC">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="logowhite.png" alt="" width="100">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
+    <header>
+        <nav class="my-gradient navbar navbar-expand-lg fixed-top navbar-dark shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logowhite.png" alt="" width="80">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+        </nav>
+    </header>
+    <main>
+        <section class="py-5 text-center container text-dark">
+            <div class="row py-5">
+                <div class="col-x-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Lorem, ipsum dolor.</h1>
+                    <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque cum
+                        officiis cupiditate molestiae officia, similique placeat alias voluptatibus ab. Explicabo ab
+                        atque pariatur deserunt eius voluptas rerum illo voluptatum praesentium..</p>
+                    <p>
+                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="container blueLg">
+            <div>Blue</div>
+            <div class="flower">
+                <img class="blueLgPetal1" src="./assets/images/leaf.svg" alt="">
+                <img class="blueLgPetal2" src="./assets/images/leaf.svg" alt="">
+            </div> 
+            <img class="blueLgUnderline" src="./assets/images/underline.png" alt="">
         </div>
-    </nav>
+        <div style="height:1050px ;"></div>
+    </main>
     <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 

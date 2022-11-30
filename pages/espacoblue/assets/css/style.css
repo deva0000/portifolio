@@ -1,3 +1,92 @@
+body {
+    background:
+        /* top, transparent black, faked with gradient */
+        linear-gradient(#ffffff,
+            #9ad3ff,
+            #9ad3ff);
+
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@font-face {
+    font-family: Miss;
+    src: url('../Miss.otf');
+}
+
 .navC {
-    background-color: rgb(63, 141, 200);
+    background-color: #418ec8;
+
+
+}
+
+.my-gradient {
+    background: linear-gradient(180deg, #418dc8, #418dc8c8);
+}
+
+.transparentBg {
+    background-color: rgba(0, 0, 0, 0.615);
+
+}
+
+.blueLg {
+    font-family: 'Miss';
+    color: #418ec8;
+    font-size: 200px;
+    /* animation: reveal 1s forwards;
+    opacity: 0;
+    animation-delay: 500ms; */
+}
+
+.blueLgUnderline {
+    position: relative;
+    width: 240px;
+    bottom: 235px;
+    left: 95px;
+    animation: revealLine 1s forwards;
+    clip-path: inset(0% 100% 0% 0%);
+    animation-delay: 1300ms;
+}
+
+.flower{
+    position: relative;
+    width: 80px;
+    bottom: 400px;
+    right: 200px;
+    opacity: 0.7;
+}
+
+.blueLgPetal1 {
+    width: inherit;
+    position: absolute;
+    left: 800px;
+    bottom: 40px;
+}
+.blueLgPetal2 {
+    width: inherit;
+    position: absolute;
+    left: 800px;
+    bottom: 10px;
+}
+
+@keyframes revealLine {
+    from {
+        clip-path: inset(0% 100% 0% 0%);
+    }
+
+    to {
+        clip-path: inset(0% 0% 0% 0%);
+    }
+}
+
+@keyframes reveal {
+    from {
+        transform: translateX(-50%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="3350" viewBox="0 0 2000 3350">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #4e90cd;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M918.427,3323.94S18.19,3005.26,75.618,1978.06c33.66-777.22,862.409-1698.689,862.409-1698.689l61.216-65.334V3350.07Z"/>
+  <path id="Shape_1_copy" data-name="Shape 1 copy" class="cls-1" d="M1080.08,3323.94s901.83-318.68,844.3-1345.88c-33.72-777.22-863.93-1698.689-863.93-1698.689l-61.327-65.334V3350.07Z"/>
+  <rect class="cls-2" x="997" y="215" width="4" height="3135"/>
+  <path class="cls-1" d="M997,213h4V34h-4V213Z"/>
+  <g>
+    <path id="Shape_1_copy_2" data-name="Shape 1 copy 2" class="cls-1" d="M1003.67,35.873s51.58,18.256,48.29,77.1c-1.93,44.524-49.41,97.313-49.41,97.313l-3.507,3.743V34.376Z"/>
+    <path id="Shape_1_copy_2-2" data-name="Shape 1 copy 2" class="cls-1" d="M994.412,35.873s-51.663,18.256-48.367,77.1c1.932,44.524,49.492,97.313,49.492,97.313l3.513,3.743V34.376Z"/>
+  </g>
+</svg>
