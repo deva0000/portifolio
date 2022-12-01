@@ -6,54 +6,93 @@ body {
             #9ad3ff);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 200vh;
-    margin-top: 80px;
+    min-height: 200vh;
+    padding-top: 5rem;
 }
+
 
 @font-face {
     font-family: Miss;
     src: url('../Miss.otf');
 }
 
-.navC {
-    background-color: #418ec8;
+.nav-link {
+    color: rgb(255, 255, 255);
+    border-radius: 1rem;
+}
+
+.nav-link:hover {
+    color: #307ab3;
+    background-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #307ab3;
+}
+
+.nav-link:focus {
+    color: white;
+}
+
+.navbar-brand {
+    margin-right: 3rem;
 }
 
 .my-gradient {
-    background: linear-gradient(180deg, #418dc8, #418dc8c8);
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-family: 'Inter';
+    background: linear-gradient(180deg, #307ab3, #307ab3ca);
 }
 
 .blueLg {
-    font-family: 'Miss';
-    color: #418ec8;
-    font-size: 12em;
-    margin-left: 14rem;
-    height: 15rem;
-    width: 23rem;
+    position: relative;
     animation: reveal 1s forwards;
-    animation-delay: 500ms;
-    opacity: 0;
+    margin-left: max(10vw, 3rem);
+    height: max(20vw, 10.8rem);
+    width: max(25vw, 13rem);
 }
 
+.blueTxt {
+    font-family: 'Miss';
+    color: #4E90CD;
+    font-size: max(13vw, 7rem);
+    position: absolute;
+}
 
 .blueLgUnderline {
-    height: 1.2rem; 
-    animation-delay: 1300ms;
-    position: relative;
-    bottom: 14rem;
-    left:5.5rem; 
-    clip-path: inset(0% 100% 0% 0%);
+    position: absolute;
     animation: revealLine 1s forwards;
-    animation-delay: 1600ms;
+    clip-path: inset(0% 100% 0% 0%);
+    animation-delay: 1000ms;
+    height: 6.5%;
+    left: 24%;
+    top: 70%;
 }
 
 .flower {
-    padding-left: 13rem;
-    height: 15rem;
-    width:16rem;
-    position: relative;
-    bottom: 34rem;
-    right: 14rem;
-    overflow: hidden;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+
 }
 
+.flower-wrapper {
+
+    position: absolute;
+    top: 14%;
+    left: -60%;
+    width: 68%;
+    height: 85%;
+    overflow: hidden;
+    padding-left: 60%
+}
+.bi-list {
+    color: white;
+}
+
+.navbar-toggler {
+    border: 1px white solid;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0px 0px 10px 0px  rgb(255, 255, 255);
+}

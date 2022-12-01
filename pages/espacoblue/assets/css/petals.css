@@ -1,132 +1,154 @@
+:root {
+    --delay: 1500ms;
+  }
+  
+
 .blueLgPetal1 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 5500ms;
+    animation-delay: calc( var( --delay ) + 3500ms);
 }
 
 
 .blueLgPetal2 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 2000ms;
+    animation-delay: calc( var( --delay ) + 0ms);
 }
 
 .blueLgPetal3 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 2500ms;
+    animation-delay: calc( var( --delay ) + 500ms);
 }
 
 .blueLgPetal4 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 3000ms;
+    animation-delay: calc( var( --delay ) + 1000ms);
 }
 
 .blueLgPetal5 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 3500ms;
+    animation-delay: calc( var( --delay ) + 1500ms);
 }
 
 .blueLgPetal6 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 4000ms;
+    animation-delay: calc( var( --delay ) + 2000ms);
 }
 
 .blueLgPetal7 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 4500ms;
+    animation-delay: calc( var( --delay ) + 2500ms);
 }
 
 .blueLgPetal8 {
-    width: 70px;
+    width: 50%;
     position: absolute;
     opacity: 0;
     animation: popping 600ms ease-in-out forwards;
-    animation-delay: 5000ms;
+    animation-delay: calc( var( --delay ) + 3000ms);
 }
 
 :root {
-    --to: 35px 100px;
+    --to: 25% 80%;
 }
 
 .petalWrapper1 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 5500ms;
+    animation-delay: calc( var( --delay ) + 3500ms);
+    
 }
 
 .petalWrapper2 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 2000ms;
+    animation-delay: calc( var( --delay ) + 0ms);
 }
 
 .petalWrapper3 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 2500ms;
+    animation-delay: calc( var( --delay ) + 500ms);
 }
 
 .petalWrapper4 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 3000ms;
+    animation-delay: calc( var( --delay ) + 1000ms);
 }
 
 .petalWrapper5 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 3500ms;
+    animation-delay: calc( var( --delay ) + 1500ms);
 }
 
 .petalWrapper6 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 4000ms;
+    animation-delay: calc( var( --delay ) + 2000ms);
 }
 
 .petalWrapper7 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 4500ms;
+    animation-delay: calc( var( --delay ) + 2500ms);
 }
 
 .petalWrapper8 {
+    height: 100%;
+    width: 100%;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.6;
     animation: round 4s linear infinite;
     transform-origin: var(--to);
-    animation-delay: 5000ms;
+    animation-delay: calc( var( --delay ) + 3000ms);
 }
