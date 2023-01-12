@@ -3,23 +3,22 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espaço Blue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/animations.css">
     <link rel="stylesheet" href="assets/css/petals.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
 </head>
+
 
 <body>
     <header>
@@ -65,7 +64,7 @@
         </nav>
     </header>
     <main>
-        <div class="d-flex title">
+        <div class="d-flex justify-content-around title">
             <div class="blueLg">
                 <div class="blueTxt notranslate ">
                     Blue
@@ -100,15 +99,25 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="cmContainer d-flex">
             <div class="cmBlock">
-                <div id="cardId" class="mapCard"></div>                
+                <div id="cardId" class="mapCard">Bem-vindo ao Espaço Blue.
+                    Conheça nosso Espaço!</div>
                 <div id="mapId" class="map">
                     <div id="mapOverId" class="mapOver"></div>
-                    <iframe class="mapIframe" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7678.690923854838!2d-47.888402!3d-15.785728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x986057c4bbb6cdf3!2sEspa%C3%A7o%20Blue%20de%20Est%C3%A9tica%20e%20Podologia!5e0!3m2!1sen!2sbr!4v1673452523154!5m2!1sen!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe class="mapIframe"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7678.690923854838!2d-47.888402!3d-15.785728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x986057c4bbb6cdf3!2sEspa%C3%A7o%20Blue%20de%20Est%C3%A9tica%20e%20Podologia!5e0!3m2!1sen!2sbr!4v1673452523154!5m2!1sen!2sbr"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <img class="mapBtn" src="./assets/images/Google Maps.svg" onclick="mapSwitch()" width="50px" alt="">
             </div>
-
+            <img class="mapBtn" src="./assets/images/Google Maps.svg" onclick="mapSwitch()" width="50px" alt="">
+        </div>
+        <div class="servicos">
+            <div class="kelly">
+                <img src="./assets/images/kellycut.png" width="350rem" alt="" srcset="">
+            </div>
         </div>
     </main>
 

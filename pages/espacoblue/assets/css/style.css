@@ -6,7 +6,9 @@ body {
             #9ad3ff);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 200vh;
+    height: 200vh;
+    width: 100vw;
+    overflow-x: hidden;
     padding-top: 5rem;
     font-family: 'Inter';
 }
@@ -44,10 +46,14 @@ body {
     background: linear-gradient(180deg, #307ab3, #307ab3ca);
 }
 
+.title {
+    width: 100vw;
+}
+
 .blueLg {
     position: relative;
     animation: reveal 1s forwards;
-    margin-left: max(10vw, 3rem);
+    margin-left: max(0vw, 0rem);
     height: max(20vw, 10.8rem);
     width: max(25vw, 13rem);
 }
@@ -103,7 +109,8 @@ body {
 .cmBlock {
     height: 320px;
     width: 420px;
-    position: relative
+    position: relative;
+
 }
 
 .map {
@@ -115,8 +122,6 @@ body {
     z-index: 0;
     border-radius: inherit;
     overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px #00000086;
 }
 
 
@@ -125,8 +130,8 @@ body {
     position: absolute;
     height: 300px;
     width: 400px;
-    background-color: #219c06db;
-    pointer-events:none;
+    background-color: #ddffd5;
+    pointer-events: none;
 }
 
 .bottomToTopSwitch {
@@ -140,19 +145,36 @@ body {
 .mapCard {
     height: 300px;
     width: 400px;
-    background-color: #307ab3;
+    background-color: #f5ffe3;
     z-index: 5;
     position: absolute;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px #00000086;
+    color: rgb(19, 94, 181);
+    padding: 20px;
+    font-size: 2.7em;
+    font-family: 'Inter';
+    font-weight: 200;
+    caret-color: transparent;
+    text-align: center;
 }
 
 .mapBtn {
     cursor: pointer;
-    position: absolute;
-    right: -30px;
-    bottom: -30px;
     z-index: 1000;
-    filter: drop-shadow(3px 2px 0px  rgba(0, 0, 0, 0.469)) ;
+    caret-color: transparent;
+    animation: bounce 5s ease-in-out;
+    animation-iteration-count: infinite;
+    transform-origin: bottom center;
+    filter: drop-shadow(0 0 0.7rem #0099ff);
 }
 
+.cmContainer {
+    position: absolute;
+    right: 5rem;
+    top: 7rem;
+
+}
+
+.servicos {
+
+    
+}
